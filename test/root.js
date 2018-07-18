@@ -29,6 +29,3 @@ before(function(done) {
   });
 });
 
-function shout(message) {
-  return String.toUpperCase(message);
-}
