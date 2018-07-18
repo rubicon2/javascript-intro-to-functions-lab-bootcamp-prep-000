@@ -15,6 +15,8 @@ function logWhisper(message) {
 }
 
 function sayHiToGrandma(message) {
-  if (message === "I love you, Grandma.")
+  if (message === "I love you, Grandma.") {
+    return "I love you, too.";
+  }
 }
 
