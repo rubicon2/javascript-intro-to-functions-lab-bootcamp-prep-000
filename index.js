@@ -21,9 +21,9 @@ function sayHiToGrandma(message) {
   
   if (message === "I love you, Grandma.") {
     return "I love you, too.";
-  } else if (message === lowercase) {
+  } else if (message === message.toLowerCase()) {
     return "I can't hear you!";
-  } else if (message === uppercase) {
+  } else if (message === message.toUpperCase()) {
     return "YES INDEED!";
   }
 }
