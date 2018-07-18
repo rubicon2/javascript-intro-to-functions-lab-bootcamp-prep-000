@@ -30,5 +30,5 @@ before(function(done) {
 });
 
 function shout(message) {
-  message.toUpperCase();
+  return String.toUpperCase(message);
 }
