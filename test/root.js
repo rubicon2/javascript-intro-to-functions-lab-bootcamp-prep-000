@@ -30,5 +30,5 @@ before(function(done) {
 });
 
 function shout(message) {
-  
+  String.
 }
