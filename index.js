@@ -6,3 +6,10 @@ function whisper(message) {
   return message.toLowerCase();
 }
 
+function logShout(message) {
+  
+}
+
+function logWhisper(message) {
+  
+}
